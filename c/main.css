@@ -1,0 +1,42 @@
+details {
+    font:
+        16px "Open Sans",
+        Calibri,
+        sans-serif;
+    width: 620px;
+}
+
+body {
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+p {
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+a :visited {
+    color: blueviolet;
+}
+
+header {
+    color: darkblue;
+}
+
+footer {
+    background-color: #ccc;
+}
+
+
