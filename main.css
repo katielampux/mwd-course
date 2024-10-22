@@ -1,20 +1,20 @@
-details {
-    font:
-        16px "Open Sans",
-        Calibri,
-        sans-serif;
-    width: 620px;
-}
+
 
 body {
     font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
     font-weight: normal;
 }
 
+p:first-letter{
+    color:blueviolet;
+    font-weight: bold;
+}
 p {
     font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
     font-weight: normal;
-    line-height: 1.2em;
+    line-height: 1.6em;
+    margin: 1em;
+    padding-left: 1em;
 }
 
 h1,
@@ -27,7 +27,7 @@ a:hover {
     font-style: italic;
 }
 
-a :visited {
+a:visited {
     color: blueviolet;
 }
 
@@ -37,6 +37,36 @@ header {
 
 footer {
     background-color: #ccc;
+    margin: 1em;
+    padding: 1em;
+    font-style: oblique; 
+}
+
+summary{
+    border:inset;
+}
+
+summary, details {
+    font:
+        16px "Open Sans",
+        Calibri,
+        sans-serif;
+    max-width: 620px;
+    display:inline-block;
+}
+
+details {
+    margin-left: 1em;
+}
+
+figure {
+    display:inline-block;
+    padding: 1em;
+    border: double;
+}
+
+ul#further-reading {
+    line-height: 1.8em;
 }
 
 
